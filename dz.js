@@ -1,8 +1,8 @@
 let sec = 0;
 
-let Hstart = document.getElementById('HTMLstart').addEventListener("click", start);
-let Hclear = document.getElementById('HTMLclear').addEventListener("click", clear);
-let Hstop = document.getElementById('HTMLstop').addEventListener("click", stop);
+const Hstart = document.getElementById('HTMLstart').addEventListener("click", start);
+const Hclear = document.getElementById('HTMLclear').addEventListener("click", clear);
+const Hstop = document.getElementById('HTMLstop').addEventListener("click", stop);
 
 function start() {
     timer = setInterval(function () {
